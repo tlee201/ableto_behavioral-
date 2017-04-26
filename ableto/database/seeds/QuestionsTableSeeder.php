@@ -29,7 +29,7 @@ class QuestionsTableSeeder extends Seeder
 					
 		Question::create([
 			'survey_id'		=>  1,			
-			'question_name' => 'How do you feel about your overall health'
+			'question_name' => 'Where did you go today'
 		]);
     }
 }
